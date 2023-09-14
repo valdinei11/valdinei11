@@ -1,0 +1,9 @@
+
+pesos = int(input('Quanto voce tem em pesos ?'))
+soles = int(input('Quanto voce tem em soles ?'))
+reais = int(input('Quanto voce tem em reais ?'))
+usdp = pesos * 0.00026
+usds = soles * 0.27
+usdr = reais * 0.21
+total = usdp + usds + usdr
+print(total)
