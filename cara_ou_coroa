@@ -1,0 +1,7 @@
+# coin_flip
+import random
+num = random.randint(0, 1) #gerando numeros aleartorio entre 0 e 1
+if num > 0.5:
+  print('Cara')
+else:
+  print('Coroa')
