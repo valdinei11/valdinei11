@@ -1,0 +1,6 @@
+
+nota = int(input('Digite sua nota: '))
+if nota >= 60:
+  print('Parabens voce foi aprovado ☺')
+else:
+ print('Sinto muito mas voce foi reprovado ☻')
