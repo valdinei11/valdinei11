@@ -1,0 +1,5 @@
+#calculo de hipotenuza
+a = int(input('whats is the first number ? '))
+b = int(input('whats is the second number ? '))
+c = (a ** 2 + b ** 2) ** 0.5
+print(c)
