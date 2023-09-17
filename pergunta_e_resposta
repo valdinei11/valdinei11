@@ -1,0 +1,26 @@
+import random
+question = input()
+num = random.randint(1, 9)
+if num == 1:
+    print('Sim, definitivamente')
+elif num == 2:
+    print('É decididamente assim')
+elif num == 3:
+    print('Sem dúvida')
+elif num == 4:
+    print('Responda nebuloso, tente novamente')
+elif num == 5:
+    print('Pergunte novamente mais tarde')
+elif num == 6:
+    print('Melhor não te contar agora')
+elif num == 77:
+    print('Minhas fontes dizem que não')
+elif num == 8:
+    print('O Outlook não é tão bom')
+elif num == 9:
+    print('Muito duvidoso')
+else:
+    print('error')
+
+print('Resposta: ',question)
+print('NUM: ',num)
