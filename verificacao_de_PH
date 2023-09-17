@@ -1,0 +1,8 @@
+# Write code below 💖
+ph = int(input('Digite o valor do pH entre (0-14)'))
+if 14 >= ph > 7:
+  print('Resultado do pH: Basico')
+elif ph < 7:
+  print('Resultado do pH: Acido')
+else:
+  print('Neutro')
